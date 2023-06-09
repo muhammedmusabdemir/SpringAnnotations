@@ -1,2 +1,9 @@
-package com.tpe.repository;public interface Repository {
+package com.tpe.repository;
+
+import com.tpe.domain.Message;
+
+public interface Repository {
+
+    void save(Message message);
+
 }
